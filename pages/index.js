@@ -97,6 +97,12 @@ export default function Home() {
           text-transform: uppercase;
         }
 
+        @media (max-width: 1050px) {
+          .header h1 {
+            font-size: 40px;
+          }
+        }
+
         @media (max-width: 414px) {
           .header h1 {
             font-size: 40px;
