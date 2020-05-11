@@ -107,16 +107,6 @@ export default function Home() {
           }
         }
 
-        @media (max-width: 850px) {
-          .header h1 {
-            font-size: 50px;
-          }
-
-          .header p {
-            font-size: 18px;
-          }
-        }
-
         .header p {
           color: #fff;
           font-weight: 500;
