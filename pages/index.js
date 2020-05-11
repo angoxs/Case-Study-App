@@ -11,7 +11,6 @@ export default function Home() {
         <div className="container">
           <ul>
             <li>Register</li>
-            <li>Schedule</li>
             <li>Sponsors</li>
             <li>About</li>
             <li>Contact</li>
@@ -96,6 +95,16 @@ export default function Home() {
           margin-top: 0;
           margin-bottom: 80px;
           text-transform: uppercase;
+        }
+
+        @media (max-width: 414px) {
+          .header h1 {
+            font-size: 40px;
+          }
+
+          .header p {
+            font-size: 16px;
+          }
         }
 
         @media (max-width: 850px) {
