@@ -91,7 +91,7 @@ export default function Home() {
         .header h1 {
           color: #fff;
           line-height: 125%;
-          font-size: 80px;
+          font-size: 72px;
           margin-top: 0;
           margin-bottom: 80px;
           text-transform: uppercase;
